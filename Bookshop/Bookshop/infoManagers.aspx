@@ -70,8 +70,8 @@ adminPassword--%>
 
     <hr/>
     <h2>新增管理者</h2>
-    管理者名稱: <asp:TextBox ID="AdminBox1" runat="server"></asp:TextBox><br/>
-    管理者密碼: <asp:TextBox ID="AdminBox2" runat="server"></asp:TextBox><br />
+    管理者名稱: <asp:TextBox ID="AdminBox1" runat="server" ></asp:TextBox><br/>
+    管理者密碼: <asp:TextBox ID="AdminBox2" runat="server" ></asp:TextBox><br />
     <asp:Button ID="Button1" runat="server" Text="新增" onclick="Button1_Click"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptHolder" Runat="Server">

@@ -75,13 +75,13 @@
                                 <div class="control-group">
                                     <label class="control-label" for="Idinput">帳號</label>
                                     <div class="controls">
-                                        <asp:TextBox ID="IdBox" class="span3" onkeydown="onEnterDown(event)" runat="server"></asp:TextBox>
+                                        <asp:TextBox ID="IdBox" class="span3" onkeydown="onEnterDown(event)" runat="server">Tony</asp:TextBox>
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label class="control-label" for="inputPassword">密碼</label>
                                     <div class="controls">
-                                        <asp:TextBox ID="PasswordBox" class="span3" onkeydown="onEnterDown2(event)" runat="server" TextMode="Password"></asp:TextBox>
+                                        <asp:TextBox ID="PasswordBox" class="span3" onkeydown="onEnterDown2(event)" runat="server" >tony123</asp:TextBox>
                                     </div>
                                 </div>
                                 <div class="control-group">

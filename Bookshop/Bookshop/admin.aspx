@@ -39,12 +39,12 @@
         <tr>
             <td>管理者帳號: </td>
             <td>
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
+                <asp:TextBox ID="TextBox1" runat="server">admin</asp:TextBox></td>
         </tr>
         <tr>
             <td>管理者密碼: </td>
             <td>
-                <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" TextMode="Password">123</asp:TextBox>
         </tr>
     </table>
     <asp:Button ID="Button1" runat="server" Text="登入" OnClick="Button1_Click" />
